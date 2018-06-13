@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BitcoinValueTicker</string>
+    <string name="usd">Current Value in USD:</string>
+    <string name="value">VALUE</string>
+    <string name="getValueButton">Get value</string>
+    <string name="exitButton">Exit app</string>
 </resources>
