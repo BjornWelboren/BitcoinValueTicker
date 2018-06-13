@@ -8,6 +8,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnExit = findViewById(R.id.btnExit);
         Button btnGetValue = findViewById(R.id.btnGetValue);
+        TextView txtValue = findViewById(R.id.textView2);
+        String value = txtValue.getText().toString();
 
         btnExit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +40,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "btnGetValue has been pressed");
+
+
+
+
             }
         });
 
