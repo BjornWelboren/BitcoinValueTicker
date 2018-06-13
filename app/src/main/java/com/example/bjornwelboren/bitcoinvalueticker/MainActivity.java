@@ -1,17 +1,11 @@
 package com.example.bjornwelboren.bitcoinvalueticker;
 
-import android.media.Ringtone;
-import android.media.RingtoneManager;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,30 +16,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnExit = findViewById(R.id.btnExit);
-        Button btnGetValue = findViewById(R.id.btnGetValue);
-        TextView txtValue = findViewById(R.id.textView2);
-        String value = txtValue.getText().toString();
-
-        btnExit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(TAG, "btnExit has been pressed");
-                finish();
-                System.exit(0);
-            }
-        });
-
-        btnGetValue.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(TAG, "btnGetValue has been pressed");
-
-
-
-
-            }
-        });
+        TextView txtValueUSD = findViewById(R.id.viewUSD);
+        TextView txtValueEUR = findViewById(R.id.viewEUR);
+        TextView txtValueGBP = findViewById(R.id.viewGBP);
 
     }
 

@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">BitcoinValueTicker</string>
-    <string name="usd">Current BTC value in USD:</string>
+    <string name="app_name">Bitcoin value ticker</string>
+    <string name="currentBTCPrice">Current BTC Price:</string>
+    <string name="USD">US Dollar:</string>
+    <string name="EUR">Euro:</string>
+    <string name="GBP">British Pounds:</string>
     <string name="value">VALUE</string>
-    <string name="getValueButton">Get value</string>
     <string name="exitButton">Exit app</string>
 </resources>
