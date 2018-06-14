@@ -12,9 +12,8 @@
         android:layout_height="42dp"
         android:text="@string/currentBTCPrice"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="33dp" />
-
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="31dp" />
 
     <TextView
         android:id="@+id/txtUSD"
@@ -24,8 +23,8 @@
         android:gravity="center"
         android:text="@string/USD"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="113dp" />
 
     <TextView
         android:id="@+id/txtEUR"
@@ -34,8 +33,8 @@
         android:gravity="center"
         android:text="@string/EUR"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="232dp" />
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="233dp" />
 
     <TextView
         android:id="@+id/txtGBP"
@@ -44,7 +43,7 @@
         android:gravity="center"
         android:text="@string/GBP"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="363dp" />
 
     <TextView
@@ -54,17 +53,17 @@
         android:text="@string/value"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="161dp" />
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="160dp" />
 
     <TextView
         android:id="@+id/viewEUR"
-        android:layout_width="wrap_content"
+        android:layout_width="108dp"
         android:layout_height="wrap_content"
         android:text="@string/value"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="292dp" />
 
     <TextView
@@ -74,15 +73,7 @@
         android:text="@string/value"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="418dp" />
-
-    <Button
-        android:id="@+id/btnExit"
-        android:layout_width="116dp"
-        android:layout_height="66dp"
-        android:text="@string/exitButton"
         tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="502dp" />
+        tools:layout_editor_absoluteY="424dp" />
 
 </android.support.constraint.ConstraintLayout>

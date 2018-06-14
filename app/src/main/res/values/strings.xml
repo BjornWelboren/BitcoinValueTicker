@@ -5,5 +5,4 @@
     <string name="EUR">Euro:</string>
     <string name="GBP">British Pounds:</string>
     <string name="value">VALUE</string>
-    <string name="exitButton">Exit app</string>
 </resources>
