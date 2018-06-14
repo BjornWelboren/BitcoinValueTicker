@@ -10,14 +10,17 @@ public class APIClient {
 
     private static Retrofit retrofit = null;
 
-
-
-
-/**
+    /**
  * @return Retrofit.Builder
  */
 
 public static Retrofit getClient() {
+
+    Currency currency = new Currency();
+
+    long value = currency.getValue();
+    String cr = currency.getCurrency();
+
 
     //Maak logging interceptor
     HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
@@ -34,7 +37,7 @@ public static Retrofit getClient() {
 
 
     retrofit = new Retrofit.Builder()
-            .baseUrl("https://blockchain.info/tobtc?currency=USD&value=1")
+            .baseUrl("https://blockchain.info/tobtc?currency="+cr+"&value="+value)
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build();
@@ -43,4 +46,5 @@ public static Retrofit getClient() {
     return retrofit;
 
     }
+
 }
