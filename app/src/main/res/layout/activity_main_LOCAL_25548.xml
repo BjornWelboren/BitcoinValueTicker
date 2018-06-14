@@ -16,16 +16,11 @@
         android:layout_marginStart="8dp"
         android:text="@string/currentBTCPrice"
         android:textSize="30sp"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/txtUSD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-=======
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="31dp" />
->>>>>>> ea8d08e8e121b5cd376621bc6ff1fb7104f049ac
 
     <TextView
         android:id="@+id/txtUSD"
@@ -39,15 +34,10 @@
         android:gravity="center"
         android:text="@string/USD"
         android:textSize="24sp"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/viewUSD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
-=======
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="113dp" />
->>>>>>> ea8d08e8e121b5cd376621bc6ff1fb7104f049ac
 
     <TextView
         android:id="@+id/txtEUR"
@@ -60,15 +50,10 @@
         android:gravity="center"
         android:text="@string/EUR"
         android:textSize="24sp"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/viewEUR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewUSD" />
-=======
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="233dp" />
->>>>>>> ea8d08e8e121b5cd376621bc6ff1fb7104f049ac
 
     <TextView
         android:id="@+id/txtGBP"
@@ -81,15 +66,10 @@
         android:gravity="center"
         android:text="@string/GBP"
         android:textSize="24sp"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/viewGBP"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewEUR" />
-=======
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="363dp" />
->>>>>>> ea8d08e8e121b5cd376621bc6ff1fb7104f049ac
 
     <TextView
         android:id="@+id/viewUSD"
@@ -102,19 +82,14 @@
         android:text="@string/value"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/txtEUR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtUSD" />
-=======
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="160dp" />
->>>>>>> ea8d08e8e121b5cd376621bc6ff1fb7104f049ac
 
     <TextView
         android:id="@+id/viewEUR"
-        android:layout_width="108dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -123,15 +98,10 @@
         android:text="@string/value"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/txtGBP"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtEUR" />
-=======
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="292dp" />
->>>>>>> ea8d08e8e121b5cd376621bc6ff1fb7104f049ac
 
     <TextView
         android:id="@+id/viewGBP"
@@ -144,7 +114,6 @@
         android:text="@string/value"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/btnExit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -163,9 +132,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/viewGBP" />
-=======
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="424dp" />
->>>>>>> ea8d08e8e121b5cd376621bc6ff1fb7104f049ac
 
 </android.support.constraint.ConstraintLayout>
